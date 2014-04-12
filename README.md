@@ -13,6 +13,7 @@ If you want to start hacking on this execute this commands:
 git clone https://github.com/janhancic/ctuterm.git
 cd ctuterm
 npm install
+mv node_modules/nodewebkit/package.json node_modules/nodewebkit/_package.json # this is temporary until a bug is resolved
 ```
 
 To start the app run `npm start`.
